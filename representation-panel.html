@@ -1,0 +1,638 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>وب ایده - پنل نمایندگی</title>
+    <link rel="stylesheet" media="screen" href="css/custom.css"/>
+    <link rel="stylesheet" media="screen" href="css/font-awesome.css"/>
+    <link rel="stylesheet" media="screen" href="css/bootstrap-theme.css"/>
+    <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+</head>
+
+<body>
+<div class="main-webide">
+    <div id="tops">
+        <div class="container">
+            <div class="col-sm-6 col-xs-12 account-webide">
+                <a class="logout" href="#" onclick="document.getElementById('id01').style.display='block'"><i
+                        class="fa fa-lock"></i><span>ورود</span></a>
+                <div class="form_style1 modal" id="id01">
+                    <div class="border-wrapper">
+                        <div class="wrapper_inner">
+                            <div class="close_btn" onclick="document.getElementById('id01').style.display='none'"><i
+                                    class="fa fa-close"></i></div>
+                            <div class="title">ورود به حساب کاربری</div>
+                            <form id="signin_frm" method="post" action="http://drzalaki.com/login-auth"
+                                  novalidate="novalidate">
+                                <input name="_token" value="Cn3BKZt8wzO4vSoAkTKsjxXET3IwY4w31LIPvtwS" type="hidden">
+                                <ul class="step none_list_style clearfix">
+                                    <li class="item w100">
+                                        <input placeholder="ایمیل" name="email" type="text">
+                                        <div class="icon"><i class="fa fa-user"></i></div>
+                                    </li>
+                                    <li class="item w100">
+                                        <input placeholder="رمز عبور" name="password" type="password">
+                                        <div class="icon"><i class="fa fa-lock"></i></div>
+                                    </li>
+                                    <li class="item w100" style="margin-bottom: 10px;">
+                                        <div class="forget_password fleft">
+                                            <a href=#" class="link">فراموشی رمز عبور</a>
+                                        </div>
+                                        <label class="check_radio_style1 fright" for="login_remember">
+                                            <input value="1" name="remember" id="login_remember" type="checkbox">
+                                            <span class="icon"></span>
+                                            <span class="check_text">مرا به خاطر بسپار</span>
+                                        </label>
+                                    </li>
+                                    <li class="item w100">
+                                        <button>ورود به حساب کاربری</button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 hidden-xs text-left">
+                <a href="tel:02153896">021-53896</a>
+            </div>
+        </div>
+    </div><!--end top-->
+    <div class="content">
+        <div class="container">
+            <div class="hidden-xs hidden-sm col-md-2 logo">
+                <div class="logo-wevideh">
+                    <img src="images/tem/logo.png" alt="ایده پیام">
+                </div>
+            </div><!--end logo -->
+            <div class="col-xs-12 col-md-10">
+                <ul class="exo-menu">
+                    <li><a class="active" href="#"><i class="fa fa-home"></i><span
+                            class="message-li">صفحه اصلی</span></a></li>
+                    <li class="mega-drop-down"><a href="#"><i class="fa fa-cogs"></i>محصولات</a>
+                        <div class="animated fadeIn mega-menu">
+                            <div class="mega-menu-wrap">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h4 class="row mega-title">Feature</h4>
+                                        <img class="img-responsive"
+                                             src="#">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h4 class="row mega-title">Standers</h4>
+                                        <ul class="stander">
+                                            <li><a href="#">Mobile</a></li>
+                                            <li><a href="#">Computer</a></li>
+                                            <li><a href="#">Watch</a></li>
+                                            <li><a href="#">laptop</a></li>
+                                            <li><a href="#">Camera</a></li>
+                                            <li><a href="#">I pad</a></li>
+                                            <li><a class="view-more btn- btn-sm" href="#">View more</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="row mega-title">Description</h4>
+                                        <ul class="description">
+                                            <li><a href="#">Women</a>
+                                                <span>Description of Women</span>
+                                            </li>
+                                            <li><a href="#">Men</a>
+                                                <span>Description of men Cloths</span>
+                                            </li>
+                                            <li><a href="#">Kids</a>
+                                                <span>Description of Kids Cloths</span>
+                                            </li>
+                                            <li><a href="#">Others</a>
+                                                <span>Description of Others Cloths</span>
+                                            </li>
+                                            <li>
+                                                <a class="view-more btn btn-sm " href="#">View more</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="row mega-title">Icon + Description</h4>
+                                        <ul class="icon-des">
+                                            <li><a href="#"><i class="fa fa-globe"></i>Web</a></li>
+                                            <li><a href="#"><i class="fa fa-mobile"></i>Mobile</a></li>
+                                            <li><a href="#"><i class="fa fa-arrows-h"></i>Responsive</a></li>
+                                            <li><a href="#"><i class="fa fa-desktop"></i>Desktop</a></li>
+                                            <li><a href="#"><i class="fa fa-paint-brush"></i>UI/UX</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="images-drop-down"><a href="#"><i class="fa fa-desktop"></i><span class="message-li">طراحی سایت</span></a>
+                        <div class="Images animated fadeIn">
+                            <div class="col-md-3">
+                                <h4>Images Title </h4>
+                                <img class="img-responsive"
+                                     src="#">
+                            </div>
+                            <div class="col-md-3">
+                                <h4>Images Title </h4>
+                                <img class="img-responsive"
+                                     src="#">
+                            </div>
+                            <div class="col-md-3">
+                                <h4>Images Title </h4>
+                                <img class="img-responsive"
+                                     src="#">
+                            </div>
+                            <div class="col-md-3">
+                                <h4>Images Title </h4>
+                                <img class="img-responsive"
+                                     src="#">
+                            </div>
+
+                        </div>
+
+                    </li>
+                    <li><a href="#"><i class="fa fa-server"></i><span class="message-li">سرور</span></a></li>
+                    <li><a href="#"><i class="fa fa-briefcase"></i><span class="message-li">میزبانی وب</span></a></li>
+
+                    <li class="blog-drop-down"><a href="#"><i class="fa fa-bullhorn"></i><span
+                            class="message-li">دامنه</span></a>
+                        <div class="Blog animated fadeIn">
+                            <div class="col-md-4">
+                                <img class="img-responsive"
+                                     src="#">
+                                <div class="blog-des">
+                                    <h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                        euismod
+                                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                        veniam,
+                                        quis
+                                        nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                                        commodo
+                                        consequat.
+                                        Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+                                    <a class="view-more btn- btn-sm" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive"
+                                     src="#">
+                                <div class="blog-des">
+                                    <h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                        euismod
+                                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                        veniam,
+                                        quis
+                                        nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                                        commodo
+                                        consequat.
+                                        Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+                                    <a class="view-more btn- btn-sm" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive"
+                                     src="#">
+                                <div class="blog-des">
+                                    <h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                        euismod
+                                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                        veniam,
+                                        quis
+                                        nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                                        commodo
+                                        consequat.
+                                        Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+                                    <a class="view-more btn- btn-sm" href="#">Read More</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+                    <li><a href="#"><i class="fa fa-line-chart"></i><span class="message-li">سئو</span></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i><span class="message-li">پیامک</span></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i><span class="message-li">سایر خدمات</span> </a></li>
+                    <li class="drop-down"><a href="#"><i class="fa fa-phone"></i> تماس با ما</a>
+                        <!--Drop Down-->
+                        <ul class="drop-down-ul animated fadeIn">
+                            <li class="flyout-right"><a href="#">Flyout Right</a><!--Flyout Right-->
+                                <ul class="animated fadeIn">
+                                    <li><a href="#">Mobile</a></li>
+                                    <li><a href="#">Computer</a></li>
+                                    <li><a href="#">Watch</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#">Flyout Left</a></li>
+
+                            <li><a href="#">No Flyout</a></li>
+
+                        </ul>
+                        <!--//End drop down-->
+                    </li>
+                    <a href="#" class="toggle-menu visible-xs-block">|||</a>
+                </ul>
+            </div><!--end menu webide-->
+
+
+        </div>
+    </div><!-- end menu -->
+    <div class="vsc-lp-marquee-module marquee marquee-app-landing contact-us">
+        <div class="container relative-position">
+            <div class="row">
+                <div class="marquee-www-rebrand-wrap-compressed ">
+
+                    <div class="col-sm-12">
+
+                        <div class="row">
+                            <div class="lp-marquee-content svg-underlay col-sm-6 col-lg-5 col-xs-12">
+                                <div class="marquee-pro-left-text">
+                                    <div class="lp-product-feature-image">
+                                    </div>
+                                    <div class="marquee-product-name h4 headline-primary"><h1><span
+                                            class="headline-primary h3">تماس با وب ایده</span></h1></div>
+                                    <p>
+                                        لطفاً جهت تسريع در امر پاسخگويي و برقراري ارتباط صحيح با بخش مورد نظر خود به
+                                        موضوع ارتباط آن بخش توجه فرمائيد.
+                                    </p>
+
+                                    <p class="h3 webideh"> پاسخگویی به ایمیل ها به صورت شبانه روزی میباشد.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="step-breadcump">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="breadcump-text">
+                        <ul>
+                            <li><a href="#">صفحه اصلی<span>/</span> </a></li>
+                            <li class="active"><a href="#">پنل نمایندگی</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end breadcump -->
+    <div class="main-panel section-pading">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-style2">
+                        <div class="panel-heading">
+                            <h2>پنل نمایندگی پیامک</h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="indentBoxStyle faNumber">
+                                <h3>لطفا قبل از ثبت نام بخش شرایط و ضوابط را بادقت مطالعه نمایید</h3>
+                                <p>نمایندگان می توانند از پنل اس ام اس به صورت اختصاصی با نام تجاری و یک دامنه اختصاصی
+                                    (به عنوان مثال: www.YourName.com) استفاده نموده و اقدام به فروش و بازاریابی نمایند ،
+                                    در این شرایط هیچ نامی از شرکت مادر برده نشده و نماینده می تواند به راحتی با نام برند
+                                    خود فعالیت نمایند .</p>
+                                <p>علاوه بر این نمایندگان قادر هستند کپی رایت و لوگوی اختصاصی خود را در صفحه ورود و
+                                    صفحات داخلی پنل اس ام اس قرار دهند ، همچنین سامانه امکان قراردادن متون دلخواه در
+                                    منوهای صفحه ورود ( درباره ما ، تماس با ما ، اطلاعات حساب ، قیمت خطوط اختصاصی ، تعرفه
+                                    پیامک ، تعرفه پنل کاربری و ...) را در اختیار نمایندگان قرار می دهد تا ایشان با
+                                    صلاحدید خود این اطلاعات را برای کاربران خود قراردهند .</p>
+                                <p>سامانه پیامک تبلیغاتی امکان ایجاد پکیج ها و بسته مختلف را برای نمایندگان فراهم نموده
+                                    تا نمایندگان بتوانند با فعال یا غیر فعال کردن بخش های مختلف و ایجاد سطوح دسترسی
+                                    متعدد بسته هایی ایجاد کرده (مثلا بسته ساده ، حرفه ای و...) و اقدام به فروش پنل های
+                                    کاربری نمایند .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-style3">
+                        <H2 class="head-style3">تعرفه نمایندگی سامانه</H2>
+                        <div class="panel-body">
+                            <div class="table-responsive panel1"><table class="table table-bordered">
+                            <tbody>
+                            <tr class="first-row">
+                                <td>&nbsp;</td>
+                                <td>
+                                    <h3>نمایندگی ارشد</h3>
+                                </td>
+                                <td>
+                                    <h3>نمایندگی ویژه</h3>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>هزینه پنل</td>
+                                <td>300,000 تومان/سالیانه</td>
+                                <td>500,000 تومان/دائمی</td>
+
+                            </tr>
+                            <tr>
+                                <td>تخفیف تمدید سالیانه</td>
+                                <td>60 الی 100%</td>
+                                <td>100%</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>تعرفه 50002</td>
+                                <td>95 ریال</td>
+                                <td>90 ریال</td>
+
+                            </tr>
+                            <tr>
+                                <td>تعرفه 50002</td>
+                                <td>95 ریال</td>
+                                <td>90 ریال</td>
+
+                            </tr>
+                            <tr>
+                                <td>تعرفه 50002</td>
+                                <td>95 ریال</td>
+                                <td>90 ریال</td>
+
+                            </tr>
+                            <tr>
+                                <td>تعرفه 50002</td>
+                                <td>95 ریال</td>
+                                <td>90 ریال</td>
+
+                            </tr>
+                            <tr>
+                                <td>تعرفه 50002</td>
+                                <td>95 ریال</td>
+                                <td>90 ریال</td>
+                            </tr>
+
+                            </tbody>
+                        </table></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-style3">
+                        <h2 class="head-style3">یک سامانه با امکانات کامل دریافت کنید.</h2>
+                        <div class="panel-body">
+                            <p>تمامی امکانات سامانۀ شخصی شما با سامانه پیامک برابری می‌کند.</p>
+                            <ul class="list-payamak">
+                                <li>شخصی‌سازی سامانه</li>
+                                <li>مدیریت و نظارت کامل</li>
+                                <li>بررسی آمار و گزارش‌گیری</li>
+                                <li>تنظیم طرح‌ها و تعرفه‌ها</li>
+                                <li>ایجاد کاربران نامحدود</li>
+                                <li>بانک‌های جامع شماره</li>
+                                <li>بانک شمارۀ اختصاصی</li>
+                                <li>ایجاد درگاه الکترونیک</li>
+                                <li>قابلیت ایجاد همکار</li>
+                            </ul>
+                        </div>
+
+                    </div><!-- end -->
+                    <div class="diferent">
+                        <p>شرایط فروش به صورت اقساط:</p>
+                        <p>مشتریان محترم میتوانند طرح نمایندگی را به صورت اقساط تهیه فرمایند، بدین صورت که 50% از مبلغ طرح در هنگام عقد قرار داد و مابقی مبلغ یک ماه بعد دریافت خواهد شد .</p>
+                        <p>از طریق سفارش آنلاین پنل به صورت آنی ایجاد شده و نام کاربری و رمز عبور از طریق پیامک و ایمیل برای شما ارسال میگردد ،پرداخت وجه نیز پس از فعالسازی و تحویل پنل انجام خواهد شد ، بنابراین میتوانید قبل از پرداخت وجه سامانه را به صورت کامل تست نمایید.</p>
+                        <div class="text-center">
+                            <a href="#" title="مشاهده سایت" class="btn_style1 type1">مشاهده سایت </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end main-contact -->
+    <div class="mainParallaxWrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel-heading text-center">
+
+                        <h2>نمایندگی چیست؟</h2>
+                        <span class="moreTitle">مزایای پنل نمایندگی ایده پیام</span>
+                        <div class="clearBoth"></div>
+                    </div>
+                </div>
+            </div><!--end row -->
+            <div class="row mgt">
+            <div class="col-xs-12 col-md-4">
+                <div class="panel-body">
+                    <div class="content-panel">
+                        <div class="productItem blue">
+                            <a href="#">
+                                <span class="productIcon">
+                                    <i class="fa fa-briefcase"></i>
+                                </span>
+                            </a>
+                            <h2 class="title"><a href="#">بازار کار ثابت و درآمد مطمئن</a></h2>
+                            <p><a href="#">سود شما تدریجاً افزایش می‌یابد و در نهایت درآمد ثابتی خواهید داشت.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end topbox-->
+            <div class="col-xs-12 col-md-4">
+                <div class="panel-body">
+                    <div class="content-panel">
+                        <div class="productItem red">
+                            <a href="#">
+                                <span class="productIcon">
+                                    <i class="fa fa-hand-o-up"></i>
+                                </span>
+                            </a>
+                            <h2 class="title"><a href="#">بدون نیاز به هیچ‌گونه تخصص</a></h2>
+                            <p><a href="#">تنها یک آشنایی نسبی با کامپیوتر و دسترسی داشتن به اینترنت کافی است.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end topbox-->
+            <div class="col-xs-12 col-md-4">
+                <div class="panel-body">
+                    <div class="content-panel">
+                        <div class="productItem green">
+                            <a href="#">
+                                    <span class="productIcon">
+                                        <i class="fa fa-clock-o"></i>
+                                    </span>
+                            </a>
+                            <h2 class="title"><a href="#">بدون نیاز به صرف وقت زیاد</a></h2>
+                            <p><a href="#">در کنار شغل اصلی خود به مدیریت سامانه پرداخته و کسب درآمد کنید.</a></p>
+                        </div>
+                    </div><!-- end topbox-->
+                </div>
+            </div>
+        </div><!-- end mainParallaxWrap -->
+        </div>
+    </div><!-- end webideh -->
+</div>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row first-footer">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="footer1">
+                            <h3>ارتباط با ما</h3>
+                            <ul class="footer-address">
+                                <li><span><i class="fa fa-map-marker"></i></span> تهران، یافت آباد، بلوار معلم، تقاطع
+                                    الغدیر، پلاک 458، واحد 12
+                                </li>
+                                <li><span><i class="fa fa-envelope-o"></i></span> سامانه پیامک 2000198</li>
+                                <li><span><i class="fa fa-phone"></i></span> 021-53896</li>
+                                <li><span><i class="fa fa-fax"></i></span> 021-53896 داخلی 6</li>
+                            </ul>
+
+                            <div class="social-top">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href=""><span class="fa fa-telegram"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                </ul>
+                            </div><!-- end social-top -->
+                        </div>
+                    </div><!-- end footer1 -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                        <div class="footer1">
+                            <h3>میزبانی وب و دامنه</h3>
+                            <ul class="quick-links">
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end footer2 -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                        <div class="footer1">
+                            <h3>طراحی سایت و سئو</h3>
+                            <ul class="quick-links">
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end footer3 -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                        <div class="footer1">
+                            <h3>سامانه پیامک</h3>
+                            <ul class="quick-links">
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end footer4 -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                        <div class="footer1">
+                            <h3>سایر وبسایتهای ما</h3>
+                            <ul class="quick-links">
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end footer5 -->
+
+                </div><!--END ROW top -->
+                <div class="row shortKnowledge">
+                    <div class="col-xs-12 col-md-6 about">
+                        <h3>درباره ما</h3>
+                        <p>وب ایده از سال 88 آغاز فعالیت خود را در زمینه طراحی سایت، ثبت دامنه شروع کرد، و در ادامه راه
+                            اندازی بخش ارائه سرویس هاستینگ (میزبانی) فعالیت را گسترده تر کرد، و در سال 90 فعالیت خود را
+                            به صورت رسمی آغاز نمود.</p>
+                    </div><!-- end about -->
+                    <div class="col-xs-12 col-md-6 product">
+                        <img src="images/tem/samandehi2.png" alt="پنل پیامکی وب ایده" class="side-img">
+                        <img src="images/tem/enamad2.png" class="side-img" alt="پنل پیامکی وب ایده">
+                    </div><!-- end product -->
+                </div>
+            </div>
+        </div><!-- end footer-top -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="copyright-ptw text-center">کلیه حقوق این وب سایت متعلق به گروه وب ایده می باشد.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end footerbottom -->
+    </footer>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

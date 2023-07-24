@@ -1,0 +1,544 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>وب ایده صفحه پروژه</title>
+    <link rel="stylesheet" media="screen" href="css/custom.css"/>
+    <link rel="stylesheet" media="screen" href="css/font-awesome.css"/>
+    <link rel="stylesheet" media="screen" href="css/bootstrap-theme.css"/>
+    <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+	
+	
+
+</head>
+
+<body>
+<div class="main-webide">
+    <div id="tops">
+        <div class="container">
+            <div class="col-sm-6 col-xs-12 account-webide">
+                <a class="logout" href="#" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-lock"></i><span>ورود</span></a>
+                <div class="form_style1 modal" id="id01">
+                    <div class="border-wrapper">
+                        <div class="wrapper_inner">
+                            <div class="close_btn" onclick="document.getElementById('id01').style.display='none'" ><i class="fa fa-close"></i></div>
+                            <div class="title">ورود به حساب کاربری</div>
+                            <form id="signin_frm" method="post" action="http://drzalaki.com/login-auth" novalidate="novalidate">
+                                <input name="_token" value="Cn3BKZt8wzO4vSoAkTKsjxXET3IwY4w31LIPvtwS" type="hidden">
+                                <ul class="step none_list_style clearfix">
+                                    <li class="item w100">
+                                        <input placeholder="ایمیل" name="email" type="text">
+                                        <div class="icon"><i class="fa fa-user"></i></div>
+                                    </li>
+                                    <li class="item w100">
+                                        <input placeholder="رمز عبور" name="password" type="password">
+                                        <div class="icon"><i class="fa fa-lock"></i></div>
+                                    </li>
+                                    <li class="item w100" style="margin-bottom: 10px;">
+                                        <div class="forget_password fleft">
+                                            <a href=#" class="link">فراموشی رمز عبور</a>
+                                        </div>
+                                        <label class="check_radio_style1 fright" for="login_remember">
+                                            <input value="1" name="remember" id="login_remember" type="checkbox">
+                                            <span class="icon"></span>
+                                            <span class="check_text">مرا به خاطر بسپار</span>
+                                        </label>
+                                    </li>
+                                    <li class="item w100">
+                                        <button>ورود به حساب کاربری</button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 hidden-xs text-left">
+                <a href="tel:02153896">021-53896</a>
+            </div>
+        </div>
+    </div><!--end top-->
+    <div class="content">
+    <div class="container">
+        <div class="hidden-xs hidden-sm col-md-2 logo">
+           <div class="logo-wevideh">
+               <img src="images/tem/logo.png" alt="ایده پیام">
+           </div>
+        </div><!--end logo -->
+        <div class="col-xs-12 col-md-10">
+            <ul class="exo-menu">
+                <li><a class="active" href="#"><i class="fa fa-home"></i><span class="message-li">صفحه اصلی</span></a></li>
+                <li class="mega-drop-down"><a href="#"><i class="fa fa-cogs"></i>محصولات</a>
+                    <div class="animated fadeIn mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title">Feature</h4>
+                                    <img class="img-responsive"
+                                         src="#">
+                                </div>
+                                <div class="col-md-2">
+                                    <h4 class="row mega-title">Standers</h4>
+                                    <ul class="stander">
+                                        <li><a href="#">Mobile</a></li>
+                                        <li><a href="#">Computer</a></li>
+                                        <li><a href="#">Watch</a></li>
+                                        <li><a href="#">laptop</a></li>
+                                        <li><a href="#">Camera</a></li>
+                                        <li><a href="#">I pad</a></li>
+                                        <li><a class="view-more btn- btn-sm" href="#">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="row mega-title">Description</h4>
+                                    <ul class="description">
+                                        <li><a href="#">Women</a>
+                                            <span>Description of Women</span>
+                                        </li>
+                                        <li><a href="#">Men</a>
+                                            <span>Description of men Cloths</span>
+                                        </li>
+                                        <li><a href="#">Kids</a>
+                                            <span>Description of Kids Cloths</span>
+                                        </li>
+                                        <li><a href="#">Others</a>
+                                            <span>Description of Others Cloths</span>
+                                        </li>
+                                        <li>
+                                            <a class="view-more btn btn-sm " href="#">View more</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="row mega-title">Icon + Description</h4>
+                                    <ul class="icon-des">
+                                        <li><a href="#"><i class="fa fa-globe"></i>Web</a></li>
+                                        <li><a href="#"><i class="fa fa-mobile"></i>Mobile</a></li>
+                                        <li><a href="#"><i class="fa fa-arrows-h"></i>Responsive</a></li>
+                                        <li><a href="#"><i class="fa fa-desktop"></i>Desktop</a></li>
+                                        <li><a href="#"><i class="fa fa-paint-brush"></i>UI/UX</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="images-drop-down"><a href="#"><i class="fa fa-desktop"></i><span class="message-li">طراحی سایت</span></a>
+                    <div class="Images animated fadeIn">
+                        <div class="col-md-3">
+                            <h4>Images Title </h4>
+                            <img class="img-responsive"
+                                 src="#">
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Images Title </h4>
+                            <img class="img-responsive"
+                                 src="#">
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Images Title </h4>
+                            <img class="img-responsive"
+                                 src="#">
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Images Title </h4>
+                            <img class="img-responsive"
+                                 src="#">
+                        </div>
+
+                    </div>
+
+                </li>
+                <li><a href="#"><i class="fa fa-server"></i><span class="message-li">سرور</span></a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i><span class="message-li">میزبانی وب</span></a></li>
+
+                <li class="blog-drop-down"><a href="#"><i class="fa fa-bullhorn"></i><span class="message-li">دامنه</span></a>
+                    <div class="Blog animated fadeIn">
+                        <div class="col-md-4">
+                            <img class="img-responsive"
+                                 src="#">
+                            <div class="blog-des">
+                                <h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                    quis
+                                    nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                    consequat.
+                                    Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+                                <a class="view-more btn- btn-sm" href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive"
+                                 src="#">
+                            <div class="blog-des">
+                                <h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                    quis
+                                    nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                    consequat.
+                                    Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+                                <a class="view-more btn- btn-sm" href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive"
+                                 src="#">
+                            <div class="blog-des">
+                                <h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                    quis
+                                    nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                    consequat.
+                                    Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+                                <a class="view-more btn- btn-sm" href="#">Read More</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+
+                <li><a href="#"><i class="fa fa-line-chart"></i><span class="message-li">سئو</span></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i><span class="message-li">پیامک</span></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i><span class="message-li">سایر خدمات</span>  </a></li>
+                <li class="drop-down"><a href="#"><i class="fa fa-phone"></i> تماس با ما</a>
+                    <!--Drop Down-->
+                    <ul class="drop-down-ul animated fadeIn">
+                        <li class="flyout-right"><a href="#">Flyout Right</a><!--Flyout Right-->
+                            <ul class="animated fadeIn">
+                                <li><a href="#">Mobile</a></li>
+                                <li><a href="#">Computer</a></li>
+                                <li><a href="#">Watch</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Flyout Left</a></li>
+
+                        <li><a href="#">No Flyout</a></li>
+
+                    </ul>
+                    <!--//End drop down-->
+                </li>
+                <a href="#" class="toggle-menu visible-xs-block">|||</a>
+            </ul>
+        </div><!--end menu webide-->
+
+
+    </div>
+    </div><!-- end menu -->
+    <div class="vsc-lp-marquee-module marquee marquee-app-landing contact-us">
+        <div class="container relative-position">
+            <div class="row">
+                <div class="marquee-www-rebrand-wrap-compressed ">
+
+                    <div class="col-sm-12">
+
+                        <div class="row">
+                            <div class="lp-marquee-content svg-underlay col-sm-6 col-lg-5 col-xs-12">
+                                <div class="marquee-pro-left-text">
+                                    <div class="lp-product-feature-image">
+                                    </div>
+                                    <div class="marquee-product-name h4 headline-primary"><h1><span class="headline-primary h3">تماس با وب ایده</span></h1></div>
+                                    <p>
+                                        لطفاً جهت تسريع در امر پاسخگويي و برقراري ارتباط صحيح با بخش مورد نظر خود به موضوع ارتباط آن بخش توجه فرمائيد.
+                                    </p>
+
+                                    <p class="h3 webideh">      پاسخگویی به ایمیل ها به صورت شبانه روزی میباشد.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="step-breadcump">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="breadcump-text">
+                        <ul>
+                            <li><a href="#">صفحه اصلی<span>/</span> </a></li>
+                            <li class="active"><a href="#">نمونه کار سایت شخصی</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end breadcump -->
+    <div class="blog-main section-pading">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="item-image-sample">
+                        <img src="images/article/music.png" class="img-responsive">
+                    </div>
+                </div><!-- end detail-single-->
+                <div class="col-xs-12 col-md-6">
+                    <div class="box_style6">
+                        <div class="title_style5">
+                            <p class="title">
+                                <span class="mark1">مشخصات وب سایت</span>
+                            </p>
+                        </div>
+                        <div class="object_static">
+                            <ul class="step1">
+                                <li class="item">
+                                    <p class="name">
+
+                                             نام وب سایت :
+                                    </p>
+                                    <p class="val">وب سایت شخصی موزیک</p>
+                                </li>
+                                <li class="item">
+                                    <p class="name">
+
+                                        آدرس وب سایت :
+                                    </p>
+                                    <p class="val">www.webideh.com</p>
+                                </li>
+                                <li class="item">
+                                    <p class="name">
+
+                                        نوع وب سایت :
+                                    </p>
+                                    <p class="val">شخصی</p>
+                                </li>
+                                <li class="item">
+                                    <p class="name">
+
+                                       تعداد بازدید :
+                                    </p>
+                                    <p class="val">0</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <a href="#" title="مشاهده سایت" class="btn_style1 type1">مشاهده سایت </a>
+                    </div>
+                </div><!-- end image single-->
+            </div><!-- end row -->
+            <div class="row pro_style1">
+                <h2>نمونه کارهای مرتبط</h2>
+                <p class="text">نمونه کارهای دیگر ما را هم در این گروه مشاهده کنید .</p>
+                <div class="col-xs-12 col-md-3">
+                    <div class="item">
+
+                        <a href="#" title=" سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک" class="cover">
+                            <span class="pic" style="background-image:url('images/portfolio/1.jpg')" title="سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک"></span>
+
+                            <div class="bg"></div>
+                            <p class="name"><span class="inner_name">سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک</span></p>
+                            <span class="foot_name">وب سایت آموزش آنلاین سایت تدریسان</span>
+                        </a>
+                    </div>
+                </div><!--end sample-->
+                <div class="col-xs-12 col-md-3">
+                    <div class="item">
+
+                        <a href="#" title=" سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک" class="cover">
+                            <span class="pic" style="background-image:url('images/portfolio/2.jpg')" title="سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک"></span>
+
+                            <div class="bg"></div>
+                            <p class="name"><span class="inner_name">سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک</span></p>
+                            <span class="foot_name">وب سایت آموزش آنلاین سایت تدریسان</span>
+                        </a>
+                    </div>
+                </div><!--end sample-->
+                <div class="col-xs-12 col-md-3">
+                    <div class="item">
+
+                        <a href="#" title=" سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک" class="cover">
+                            <span class="pic" style="background-image:url('images/portfolio/4.jpg')" title="سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک"></span>
+
+                            <div class="bg"></div>
+                            <p class="name"><span class="inner_name">سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک</span></p>
+                            <span class="foot_name">وب سایت آموزش آنلاین سایت تدریسان</span>
+                        </a>
+                    </div>
+                </div><!--end sample-->
+                <div class="col-xs-12 col-md-3">
+                    <div class="item">
+
+                        <a href="#" title=" سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک" class="cover">
+                            <span class="pic" style="background-image:url('images/portfolio/15.jpg')" title="سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک"></span>
+
+                            <div class="bg"></div>
+                            <p class="name"><span class="inner_name">سیستم مدیریت هوشمند آموزشگاه های زبان آیتاک</span></p>
+                            <span class="foot_name">وب سایت آموزش آنلاین سایت تدریسان</span>
+                        </a>
+                    </div>
+                </div><!--end sample-->
+            </div>
+        </div>
+    </div><!-- end main-contact -->
+</div><!-- end webideh -->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row first-footer">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="footer1">
+                        <h3>ارتباط با ما</h3>
+                        <ul class="footer-address">
+                            <li> <span><i class="fa fa-map-marker"></i></span> تهران، یافت آباد، بلوار معلم، تقاطع الغدیر، پلاک 458، واحد 12</li>
+                            <li> <span><i class="fa fa-envelope-o"></i></span> سامانه پیامک 2000198</li>
+                            <li> <span><i class="fa fa-phone"></i></span> 021-53896 </li>
+                            <li> <span><i class="fa fa-fax"></i></span> 021-53896 داخلی 6 </li>
+                        </ul>
+
+                        <div class="social-top">
+                            <ul>
+                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                <li><a href=""><span class="fa fa-telegram"></span></a></li>
+                                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                                <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            </ul>
+                        </div><!-- end social-top -->
+                    </div>
+                </div><!-- end footer1 -->
+
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                    <div class="footer1">
+                        <h3>میزبانی وب و دامنه</h3>
+                        <ul class="quick-links">
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- end footer2 -->
+
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                    <div class="footer1">
+                        <h3>طراحی سایت و سئو</h3>
+                        <ul class="quick-links">
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- end footer3 -->
+
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                    <div class="footer1">
+                        <h3>سامانه پیامک</h3>
+                        <ul class="quick-links">
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- end footer4 -->
+
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6" >
+                    <div class="footer1">
+                        <h3>سایر وبسایتهای ما</h3>
+                        <ul class="quick-links">
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>ثبت دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>جستجوی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> تعرفه دامنه </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i>نمایندگی دامنه</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-left"></i> قوانین دامنه </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- end footer5 -->
+
+            </div><!--END ROW top -->
+            <div class="row shortKnowledge">
+                <div class="col-xs-12 col-md-6 about">
+                    <h3>درباره ما</h3>
+                    <p>وب ایده از سال 88 آغاز فعالیت خود را در زمینه طراحی سایت، ثبت دامنه شروع کرد، و در ادامه راه اندازی بخش ارائه سرویس هاستینگ (میزبانی) فعالیت را گسترده تر کرد، و در سال 90 فعالیت خود را به صورت رسمی آغاز نمود.</p>
+                </div><!-- end about -->
+                <div class="col-xs-12 col-md-6 product">
+                    <img src="images/tem/samandehi2.png" alt="پنل پیامکی وب ایده" class="side-img">
+                    <img src="images/tem/enamad2.png" class="side-img" alt="پنل پیامکی وب ایده">
+                </div><!-- end product -->
+            </div>
+        </div>
+    </div><!-- end footer-top -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="copyright-ptw text-center">کلیه حقوق این وب سایت متعلق به گروه وب ایده می باشد.</p>
+                </div>
+            </div>
+        </div>
+    </div><!--end footerbottom -->
+</footer>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
